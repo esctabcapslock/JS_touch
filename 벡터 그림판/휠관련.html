@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <style>
+        body{
+            /* display: b   lock; */
+            /* clear: both; */
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        svg{
+            z-index: 1;
+            top:0;
+            position:absolute;
+        }
+        #set{
+            position: absolute;
+            z-index: 10;
+        }
+    </style>
+    <title>확대</title>
+    <script src='./drow.js'></script>
+</head>
+<body>
+    
+    
+
+    <svg></svg>
+    
+<script>
+    const dr = new Drow(document.getElementsByTagName('svg')[0])
+
+
+//     document.body.addEventListener("wheel", e=>{
+// //e.preventDefault();
+// //e.returnValue=false;
+// //console.log(e.wheelDelta, e.wheelDeltaX, e.wheelDeltaY,e)
+// },{ passive: false });
+
+</script>
+</body>
+</html>
+
